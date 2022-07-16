@@ -12,14 +12,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-//        let artistsListViewController = ArtistsListViewController()
-//        window = UIWindow(frame: UIScreen.main.bounds)
-//
-//        // Configure Window
-//        window?.rootViewController = artistsListViewController
-//
-//        // Make Key and Visible
-//        window?.makeKeyAndVisible()
         return true
     }
 

@@ -32,12 +32,7 @@ extension ArtistsListViewController: UITableViewDataSource, UITableViewDelegate 
     
     func tableView(_ tableView: UITableView,
                    didSelectRowAt indexPath: IndexPath) {
-//        UIStoryboard(name: "", bundle: Bundle.main).instantiateViewController(withIdentifier: "detailScreen")
-//        let vc = UIStoryboard(name: "Main", bundle: Bundle.main).instantiateViewController(identifier: "detailScreen") { (coder) -> UIViewController? in
-//            WorksListViewController(selectedArtist: self.listOfArtists[indexPath.row])
-//        }
         let vc = WorksListViewController(selectedArtist: listOfArtists[indexPath.row])
-        //        let vc = WorksListViewController(atrist: listOfArtists[indexPath.row])
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
